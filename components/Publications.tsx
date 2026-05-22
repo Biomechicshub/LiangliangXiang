@@ -72,16 +72,6 @@ export default function Publications() {
 
                     {/* Links */}
                     <div className="mt-2 flex flex-wrap gap-2 text-xs">
-                      {pub.doi && (
-                        <a
-                          href={pub.doi}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="px-2 py-0.5 rounded bg-slate-200 text-slate-600 hover:bg-blue-100 hover:text-blue-700 transition-colors"
-                        >
-                          DOI
-                        </a>
-                      )}
                       {pub.pdf && (
                         <a
                           href={pub.pdf}
@@ -92,16 +82,7 @@ export default function Publications() {
                           PDF
                         </a>
                       )}
-                      {pub.code && (
-                        <a
-                          href={pub.code}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="px-2 py-0.5 rounded bg-slate-200 text-slate-600 hover:bg-blue-100 hover:text-blue-700 transition-colors"
-                        >
-                          Code
-                        </a>
-                      )}
+
                       {pub.website && (
                         <a
                           href={pub.website}

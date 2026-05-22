@@ -4,7 +4,6 @@ export type Publication = {
   venue: string;
   year: number;
   pdf?: string;
-  doi?: string;
   code?: string;
   website?: string;
   highlight?: boolean; // Show a star badge
@@ -18,8 +17,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Y. Gu, K. Deng, Z. Gao, V. Shim, A. Wang, J. Fernandez",
     venue: "npj Digital Medicine",
     year: 2025,
-    doi: "https://doi.org/10.1038/s41746-025-01662-z",
-    code: "https://github.com/Biomechicshub/Bone_stressPred",
     highlight: true,
   },
   {
@@ -29,7 +26,6 @@ export const publications: Publication[] = [
       "**L. Xiang**, Z. Gao, P. Yu, J. Fernandez, Y. Gu, R. Wang, E. M. Gutierrez-Farewik",
     venue: "Frontiers in Bioengineering and Biotechnology",
     year: 2025,
-    doi: "https://doi.org/10.3389/fbioe.2025.1671344",
     highlight: true,
   },
 
@@ -40,7 +36,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Y. Gu, Z. Gao, P. Yu, V. Shim, A. Wang, J. Fernandez",
     venue: "Computers in Biology and Medicine",
     year: 2024,
-    doi: "https://doi.org/10.1016/j.compbiomed.2024.108016",
     highlight: true,
   },
   {
@@ -49,7 +44,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Y. Gu, V. Shim, T. Yeung, A. Wang, J. Fernandez",
     venue: "Journal of Biomechanics",
     year: 2024,
-    doi: "https://doi.org/10.1016/j.jbiomech.2024.112120",
   },
   {
     title:
@@ -57,7 +51,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Z. Gao, A. Wang, V. Shim, G. Fekete, Y. Gu, J. Fernandez",
     venue: "Frontiers in Bioengineering and Biotechnology",
     year: 2024,
-    doi: "https://doi.org/10.3389/fbioe.2024.1377383",
   },
 
   // ── 2023 ──────────────────────────────────────────────────────────────────
@@ -67,7 +60,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Y. Gu, A. Wang, V. Shim, Z. Gao, J. Fernandez",
     venue: "Journal of Human Kinetics",
     year: 2023,
-    doi: "https://doi.org/10.5114/jhk/163059",
   },
 
   // ── 2022 ──────────────────────────────────────────────────────────────────
@@ -77,7 +69,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Q. Mei, A. Wang, V. Shim, J. Fernandez, Y. Gu",
     venue: "Journal of Biomechanics",
     year: 2022,
-    doi: "https://doi.org/10.1016/j.jbiomech.2022.110941",
   },
   {
     title:
@@ -85,7 +76,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Y. Gu, Q. Mei, A. Wang, V. Shim, J. Fernandez",
     venue: "Frontiers in Bioengineering and Biotechnology",
     year: 2022,
-    doi: "https://doi.org/10.3389/fbioe.2022.843204",
   },
   {
     title:
@@ -93,7 +83,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, A. Wang, Y. Gu, L. Zhao, V. Shim, J. Fernandez",
     venue: "Frontiers in Neurorobotics",
     year: 2022,
-    doi: "https://doi.org/10.3389/fnbot.2022.853032",
   },
   {
     title:
@@ -101,7 +90,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Q. Mei, A. Wang, J. Fernandez, Y. Gu",
     venue: "Gait & Posture",
     year: 2022,
-    doi: "https://doi.org/10.1016/j.gaitpost.2021.11.003",
   },
   {
     title:
@@ -109,7 +97,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Y. Gu, M. Rong, Z. Gao, T. Yang, A. Wang, V. Shim, J. Fernandez",
     venue: "Bioengineering",
     year: 2022,
-    doi: "https://doi.org/10.3390/bioengineering9010028",
   },
   {
     title:
@@ -132,7 +119,6 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Q. Mei, J. Fernandez, Y. Gu",
     venue: "Gait & Posture",
     year: 2020,
-    doi: "https://doi.org/10.1016/j.gaitpost.2019.11.022",
   },
   {
     title:
@@ -149,6 +135,5 @@ export const publications: Publication[] = [
     authors: "**L. Xiang**, Q. Mei, J. Fernandez, Y. Gu",
     venue: "Gait & Posture",
     year: 2018,
-    doi: "https://doi.org/10.1016/j.gaitpost.2018.06.114",
   },
 ];

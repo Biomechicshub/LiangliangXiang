@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { profile } from "@/data/profile";
+import { asset } from "@/lib/basePath";
 
 const links = [
   { label: "About", href: "#about" },
@@ -48,7 +49,7 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href={profile.cv}
+              href={asset(profile.cv)}
               target="_blank"
               rel="noreferrer"
               className="px-3 py-1 rounded-full border border-slate-300 hover:border-blue-500 hover:text-blue-600 transition-colors"
@@ -90,7 +91,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={profile.cv}
+            href={asset(profile.cv)}
             target="_blank"
             rel="noreferrer"
             className="hover:text-blue-600 transition-colors"

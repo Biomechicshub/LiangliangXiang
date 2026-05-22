@@ -1,5 +1,6 @@
 import ProfileImage from "@/components/ProfileImage";
 import { profile } from "@/data/profile";
+import { asset } from "@/lib/basePath";
 
 const socialLinks = [
   {
@@ -57,7 +58,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8">
           {/* Profile photo */}
           <div className="shrink-0">
-            <ProfileImage src={profile.photo} name={profile.name} />
+            <ProfileImage src={asset(profile.photo)} name={profile.name} />
           </div>
 
           {/* Name / title */}
